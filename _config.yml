@@ -1,0 +1,13 @@
+title: "ISO 19115 Role Codes Vocabulary"
+email: nicholas.car@anu.edu.au
+description: >- # this means to ignore newlines until "baseurl:"
+  This vocabulary lists the roles that Agents - People and Organisations - play in relation to data. This is an extended and Semantic Web version of the International Organisation for Standardization's [ISO19115-1 standard](https://www.iso.org/standard/53798.html)'s Role Codes codelist.
+baseurl: "/data-roles" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
