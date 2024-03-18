@@ -5,7 +5,7 @@ permalink: /
 ---
 # Vocabulary
 
-## Registry Roles 
+## Data Roles 
 
 `https://linked.data.gov.au/def/data-roles`
 
