@@ -35,7 +35,7 @@ Extending | This vocabulary may be extended to define new roles. Please contact 
 * [mediator]({{ site.baseurl }}/mediator)
 * [originator]({{ site.baseurl }}/originator)
 * [owner]({{ site.baseurl }}/owner)
-* [point of contact]({{ site.baseurl }}/point-of-contact)
+* [point of contact]({{ site.baseurl }}/pointOfContact)
 * [principal investigator]({{ site.baseurl }}/principalInvestigator)
 * [processor]({{ site.baseurl }}/processor)
 * [publisher]({{ site.baseurl }}/publisher)
