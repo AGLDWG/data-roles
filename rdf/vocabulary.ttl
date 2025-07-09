@@ -41,6 +41,31 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "ISO CI Role Code codes"@en ;
 .
 
+:projectLead
+    a skos:Concept ;
+    reg:status status:addition ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "party that manages and coordinates responsibility for a research activity."@en ;
+    skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2025"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project lead"@en ;
+    skos:topConceptOf cs: ;
+    schema:contributor <https://linked.data.gov.au/org/idn> ;
+.
+
+:projectParticipant
+    a skos:Concept ;
+    reg:status status:addition ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "party that undertakes a research activity."@en ;
+    skos:exactMatch <http://purl.org/au-research/vocabulary/RIFCS/RIFCSActivityRelationType/hasParticipant> ;
+    skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2025"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project participant"@en ;
+    skos:topConceptOf cs: ;
+    schema:contributor <https://linked.data.gov.au/org/idn> ;
+.
+
 :subjectAgent
     a skos:Concept ;
     reg:status status:addition ;
@@ -62,6 +87,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2022"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "subject agent representative"@en ;
+    schema:contributor <https://linked.data.gov.au/org/idn> ;
+.
+
+:supervisor
+    a skos:Concept ;
+    reg:status status:addition ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "party that guides and oversees the planning, execution, and completion of a student’s independent research project, such as an honours thesis, doctoral dissertation, or postdoctoral study."@en ;
+    skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2025"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "supervisor"@en ;
+    skos:topConceptOf cs: ;
     schema:contributor <https://linked.data.gov.au/org/idn> ;
 .
 
@@ -339,6 +376,8 @@ cs:
         :pointOfContact ,
         :principalInvestigator ,
         :processor ,
+        :projectLead ,
+        :projectParticipant ,
         :publisher ,
         :resourceProvider ,
         :rightsHolder ,
@@ -346,6 +385,7 @@ cs:
         :stakeholder ,
         :subjectAgent ,
         :subjectAgentRepresentative ,
+        :supervisor ,
         :user ;
     skos:historyNote "Derived from the ISO 19115's CI Role Code codelist and added to by Australian vocabulary users"@en ;
     skos:prefLabel "IDN Role Codes"@en ;
