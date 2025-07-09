@@ -16,7 +16,7 @@ Element | Value
 [Creator](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/creator) | [Nicholas J. Car](http://orcid.org/0000-0002-8742-7730)
 [Publisher](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/publisher) | [Australian Government Linked Data Working Group](https://linked.data.gov.au)
 [Created](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/created) | 28th Feb 2024
-[Modified](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified) | 28th Feb 2024
+[Modified](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified) | 8th Jul 2025
 [Issued](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/issued) | 28th Feb 2024
 [Description](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/description) | The roles that Agents - People and Organisations - play in relation to data. This is an extended and Semantic Web version of the International Organisation for Standardization's [ISO19115-1 standard](https://www.iso.org/standard/53798.html).
 Repository | <https://github.com/AGLDWG/data-roles>
@@ -38,6 +38,8 @@ Extending | This vocabulary may be extended to define new roles. Please contact 
 * [point of contact]({{ site.baseurl }}/pointOfContact)
 * [principal investigator]({{ site.baseurl }}/principalInvestigator)
 * [processor]({{ site.baseurl }}/processor)
+* [project_lead]({{ site.baseurl }}/projectLead)
+* [project_participant]({{ site.baseurl }}/projectParticipant)
 * [publisher]({{ site.baseurl }}/publisher)
 * [resource provider]({{ site.baseurl }}/resourceProvider)
 * [rights holder]({{ site.baseurl }}/rightsHolder)
@@ -45,5 +47,6 @@ Extending | This vocabulary may be extended to define new roles. Please contact 
 * [stakeholder]({{ site.baseurl }}/stakeholder)
 * [subject agent]({{ site.baseurl }}/subjectAgent)
 * [subject agent representative]({{ site.baseurl }}/subjectAgentRepresentative)
+* [supervisor]({{ site.baseurl }}/supervisor)
 * [user]({{ site.baseurl }}/user)
 

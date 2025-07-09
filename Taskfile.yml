@@ -1,0 +1,19 @@
+# https://taskfile.dev
+
+version: "3"
+
+tasks:
+  install:
+    cmd: bundle install
+
+  install:python:
+    cmds:
+      - uv venv
+      - uv pip install -r _scripts/requirements.txt
+
+  build:python:
+    cmds:
+      - cd _scripts && uv run make_files.py
+
+  dev:
+    cmd: bundle exec jekyll serve

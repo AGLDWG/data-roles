@@ -8,7 +8,6 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-
 cs:
     a skos:ConceptScheme ;
     schema:dateCreated "2024-02-28"^^xsd:date ;
@@ -37,11 +36,14 @@ cs:
         :pointOfContact ,
         :principalInvestigator ,
         :processor ,
+        :projectLead ,
+        :projectParticipant ,
         :publisher ,
         :resourceProvider ,
         :rightsHolder ,
         :sponsor ,
         :stakeholder ,
+        :supervisor ,
         :user ,
         :subjectAgent ,
         :subjectAgentRepresentative ;
@@ -65,6 +67,43 @@ cs:
     schema:description "The Indigenous Data Network (IDN) was established in 2018 to support and coordinate the governance of Indigenous data for Aboriginal and Torres Strait Islander peoples and empower Aboriginal and Torres Strait Islander communities to decide their own local data priorities."@en ;
     schema:name "Indigenous Data Network" ;
     schema:url "https://mspgh.unimelb.edu.au/centres-institutes/centre-for-health-equity/research-group/indigenous-data-network"^^xsd:anyURI ;
+.
+
+:supervisor
+    a skos:Concept ;
+    skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2025"@en ;
+    reg:status status:addition ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "party that guides and oversees the planning, execution, and completion of a student’s independent research project, such as an honours thesis, doctoral dissertation, or postdoctoral study."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "supervisor"@en ;
+    skos:topConceptOf cs: ;
+    schema:contributor <https://linked.data.gov.au/org/idn> ;
+.
+
+:projectLead
+    a skos:Concept ;
+    skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2025"@en ;
+    reg:status status:addition ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "party that manages and coordinates responsibility for a research activity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project lead"@en ;
+    skos:topConceptOf cs: ;
+    schema:contributor <https://linked.data.gov.au/org/idn> ;
+.
+
+:projectParticipant
+    a skos:Concept ;
+    skos:historyNote "Created for the Indigenous Data Network's Catalogue Project, 2025"@en ;
+    reg:status status:addition ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "party that undertakes a research activity."@en ;
+    skos:exactMatch <http://purl.org/au-research/vocabulary/RIFCS/RIFCSActivityRelationType/hasParticipant> ;
+    skos:inScheme cs: ;
+    skos:prefLabel "project participant"@en ;
+    skos:topConceptOf cs: ;
+    schema:contributor <https://linked.data.gov.au/org/idn> ;
 .
 
 :subjectAgent
