@@ -395,11 +395,11 @@ cs:
             prov:hadRole <https://linked.data.gov.au/def/vocdermods/none> ;
         ] ;
     schema:citation "http://iso.kurrawong.net/vocab/CI_RoleCode"^^xsd:anyURI ;
-    schema:copyrightNotice "(c) Australian Government Linked Data Working Group, 2024" ;
+    schema:copyrightNotice "(c) Australian Government Linked Data Working Group, 2025" ;
     schema:creator <https://linked.data.gov.au/org/idn> ;
     schema:dateCreated "2024-02-28"^^xsd:date ;
     schema:dateIssued "2024-02-28"^^xsd:date ;
-    schema:dateModified "2024-02-28"^^xsd:date ;
-    schema:license "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ;
+    schema:dateModified "2025-07-08"^^xsd:date ;
+    schema:license <http://purl.org/NET/rdflicense/cc-by4.0> ;
     schema:publisher <https://linked.data.gov.au/org/agldwg> ;
 .
